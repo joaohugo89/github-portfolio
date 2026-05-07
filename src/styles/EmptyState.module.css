@@ -1,0 +1,50 @@
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.emptyIcon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.emptyTitle {
+  font-size: 2rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.emptyMessage {
+  font-size: 1.125rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.emptySubMessage {
+  font-size: 1rem;
+  color: var(--text-muted);
+  opacity: 0.7;
+}
+
+@media (max-width: 639px) {
+  .emptyState {
+    padding: 2rem 1rem;
+  }
+
+  .emptyIcon {
+    font-size: 3rem;
+  }
+
+  .emptyTitle {
+    font-size: 1.5rem;
+  }
+
+  .emptyMessage,
+  .emptySubMessage {
+    font-size: 1rem;
+  }
+}
